@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KKyleK/discordBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KKyleK/discordBot/issues"
+  },
+  "homepage": "https://github.com/KKyleK/discordBot#readme",
+  "dependencies": {
+    "discord.js": "^13.4.0"
+  }
+}
