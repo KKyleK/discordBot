@@ -2,9 +2,9 @@
   "name": "discordbot",
   "version": "1.0.0",
   "description": "A bot for discord",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KKyleK/discordBot#readme",
   "dependencies": {
-    "discord.js": "^13.4.0"
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0"
   }
 }
