@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KKyleK/discordBot#readme",
   "dependencies": {
     "discord.js": "^13.4.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.4"
   }
 }
