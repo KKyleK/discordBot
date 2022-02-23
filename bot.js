@@ -101,13 +101,13 @@ client.on("messageCreate", msg => {
         //END OF =j
     }
 
-    picking = true; //TEST.
+    //picking = true; //TEST.
     if (picking == true) {
 
         const message = msg.content.split(" ");
-        for (let i of message) {
-            msg.channel.send(i);
-        }
+      //  for (let i of message) {
+      //      msg.channel.send(i);
+      //  }
 
         //Message is: @!id
         if (message[0] == "=p" && message.length == 2 && msg.displayName == current_captain) {
@@ -130,6 +130,9 @@ client.on("messageCreate", msg => {
         }
     }
 });
+
+
+
 
 
 
